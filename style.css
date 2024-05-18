@@ -4,16 +4,8 @@
     padding: 0;
 }
 
-.background{
-    background-color: antiquewhite;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-}
-
 html{
+    
     background-color: rgb(133, 184, 184);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -37,9 +29,6 @@ main h1{
     text-align: center;
 }
 
-
-
-
 .form1{
     border-collapse: collapse;
     margin: 30px auto;
@@ -48,4 +37,26 @@ main h1{
 
 input{
     margin-bottom: 20px;
+}
+
+.bottom_submit{
+    box-shadow: 3px 3px 10px grey;
+    border: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgba(146, 234, 213, 0.877);
+}
+
+.bottom_submit:hover{
+    box-shadow: 2px 2px 6px grey;
+    border: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgba(86, 248, 210, 0.877);
+}
+
+.bottom_login{
+    
 }
